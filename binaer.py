@@ -6,7 +6,7 @@ filePath = r"C:\Users\Lfl-WenzlFer\Desktop\TLG00001.BIN"
 
 with open(filePath, 'rb') as data_file:
     data = data_file.read()
-    print(data.decode('unicode-escape').encode('latin2').decode('utf-8'))
+    print(data.decode('unicode-escape').encode('latin5').decode('utf-8'))
 
 
 #f = codecs.open(filePath, encoding='utf-8')
